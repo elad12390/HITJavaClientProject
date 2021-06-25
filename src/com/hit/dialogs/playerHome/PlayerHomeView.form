@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.hit.dialogs.playerHome.PlayerHomeView">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="506" height="305"/>
+    </constraints>
+    <properties>
+      <font name="Alef"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="777c6" class="javax.swing.JLabel" binding="houseCourtName">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="שם האולם:"/>
+        </properties>
+      </component>
+      <component id="f8a2" class="javax.swing.JLabel" binding="houseCourtAddress">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="כתובת:"/>
+        </properties>
+      </component>
+      <component id="92322" class="javax.swing.JLabel" binding="houseCourtPhoneNumber">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="טלפון:"/>
+        </properties>
+      </component>
+      <component id="e1f8f" class="javax.swing.JLabel" binding="nextGameDateTime">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="תאריך ושעה:"/>
+        </properties>
+      </component>
+      <component id="508e1" class="javax.swing.JLabel" binding="nextGameCourt">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="אולם:"/>
+        </properties>
+      </component>
+      <component id="3f0a4" class="javax.swing.JLabel" binding="nextGameOpposingTeam">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="16"/>
+          <text value="קבוצה מתחרה:"/>
+        </properties>
+      </component>
+      <component id="c80ba" class="javax.swing.JLabel" binding="nextGameTitle">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <text value="המשחק הבא:"/>
+        </properties>
+      </component>
+      <component id="ab5f3" class="javax.swing.JLabel" binding="houseCourtTitle">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="פרטי אולם הבית:"/>
+        </properties>
+      </component>
+      <component id="f33c5" class="javax.swing.JLabel" binding="teamName">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Alef" size="26"/>
+          <text value="מכבי ראשון לציון"/>
+        </properties>
+      </component>
+      <component id="6e1e8" class="javax.swing.JLabel" binding="playerName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Alef" size="48"/>
+          <text value="קים לוי"/>
+        </properties>
+      </component>
+      <component id="74c2a" class="javax.swing.JLabel" binding="dateTimeNow">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="400" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Alef" size="18"/>
+          <text value="21:57:00"/>
+        </properties>
+      </component>
+      <component id="99c2c" class="javax.swing.JButton" binding="gameListButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Roboto" size="18"/>
+          <text value="לרשימת המשחקים"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

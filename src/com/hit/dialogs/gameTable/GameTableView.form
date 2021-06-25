@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.hit.dialogs.gameTable.GameTableView">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="12f20">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Alef" size="16"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b5664" class="javax.swing.JTable" binding="gamesTable">
+            <constraints/>
+            <properties>
+              <fillsViewportHeight value="true"/>
+              <font name="Roboto" size="14"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="ebbf9" class="javax.swing.JLabel" binding="header">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Alef" size="26"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="טבלת המשחקים של הקבוצה"/>
+        </properties>
+      </component>
+      <component id="4851f" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <text value="ביטול"/>
+        </properties>
+      </component>
+      <component id="c141" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <text value="שמירה"/>
+        </properties>
+      </component>
+      <component id="cd9f5" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <text value="חזרה"/>
+        </properties>
+      </component>
+      <component id="fdbb7" class="javax.swing.JButton" binding="addGameButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto" size="18"/>
+          <text value="הוסף משחק"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
