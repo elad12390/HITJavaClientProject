@@ -20,7 +20,7 @@ public class MVCDriver {
         try {
             setup();
         } catch (UnknownHostException e) {
-            System.out.println("Err with getting host ip: " + e);
+            System.out.println("Err with getting host ip (Will not be able to send requests): " + e);
             return;
         }
         run();

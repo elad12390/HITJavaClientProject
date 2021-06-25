@@ -68,9 +68,7 @@ public class GameTableController {
     private void addButtonListeners() {
         addSaveButtonListener();
         addCancelButtonListener();
-
         addAddGameButtonListener();
-
         addBackButtonListener();
     }
 

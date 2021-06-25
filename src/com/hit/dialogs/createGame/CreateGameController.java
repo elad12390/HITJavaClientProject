@@ -88,7 +88,7 @@ public class CreateGameController {
             var teamsMetadata = Arrays.stream(teamsModel).map(team -> new MetadataItem(team.getId(), team.getName())).toArray(MetadataItem[]::new);
             this.model.setTeams(teamsMetadata);
             this.view.addTeamSelectorOptions(this.model.getTeams());
-        });
+        }).get();
     }
 
     private void getAllGameTypes() {
